@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'variables/_module.scss';
+@import 'base/_module.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ html {
+  background-color: $primary-color;
+  color: $secondary-color;
+  font-size: $base-font-size;
+  font-family: $primary-font-family, $secondary-font-family, sans-serif;
+} 
+
+body {
+  padding: 0;
+  margin: 0;
+}

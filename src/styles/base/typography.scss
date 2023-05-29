@@ -1,0 +1,18 @@
+$fontWeightList: (
+  thin: $font-weight-thin,
+  extra-light: $font-weight-extra-light,
+  light: $font-weight-light,
+  normal: $font-weight-normal,
+  medium: $font-weight-medium,
+  semi-bold: $font-weight-semi-bold,
+  bold: $font-weight-bold,
+  extra-bold: $font-weight-extra-bold,
+  black: $font-weight-black,
+  extra-black: $font-weight-extra-black,
+);
+
+@each $key, $value in $fontWeightList {
+  .fw-#{$key} {
+    font-weight: $value;
+  }
+}
